@@ -1,10 +1,9 @@
 {
   "title": "The Governance Paradox of Transformation",
-  "lede": "Transformation programmes fail in a place that is visible before they start. Most people inside them can see it and cannot say it.",
+  "lede": "Nothing went wrong. Every decision was reasonable. The programme still rebuilt the company it was bought to replace.",
   "forPeers": "Written for people who sit close to those programmes. Independent advisors, roster firms, implementation partners. If you recognise it in a client of yours, the last section says what to do with it.",
   "decisions": "The decisions running your business today were made for the market the company served at the time.",
   "decisions2": "Most of them were right when they were made. They have not been tested since. Governance is what applies the test, or what exempts the decision from it.",
-
   "problemHeading": "The problem",
   "problemQuote": [
     "We selected the technology, appointed an internal team, brought in an implementation partner, and approved a plan that looked credible at the time. We are now over budget, the timeline has moved several times, and the system is being extended far beyond what anyone intended.",
@@ -25,64 +24,67 @@
   "governedBy": "Transformation is governed by the system it is trying to replace.",
   "insideOut": "Looking from the inside out, anyone raising the firefighting word is considered crazy.",
   "outsideIn": "Looking from the outside in, the cause is obvious.",
-
   "whoHeading": "Who this is for",
   "whoBuyer": "CEOs, CFOs, COOs and executive sponsors accountable for major ERP or technology-enabled business transformations before implementation begins.",
   "whoWordsLabel": "In their words:",
   "whoQuote": "We're getting close to implementation, but I'm not convinced the business is as ready or aligned as the programme plan suggests.",
   "whoMoment": "The moment is when the transformation moves from approval and planning toward partner selection, mobilisation or implementation, and the sponsor realises that major business decisions, ownership questions or leadership assumptions are still unresolved.",
   "whoConsequence": "Once implementation starts, unresolved business issues become programme problems. Disruption, executive friction, delayed decisions, loss of confidence in the transformation.",
-  "whoNot": "Not CIOs or technology teams leading the programme from a primarily technical perspective.",
-
+  "whoNot": "",
   "whyHeading": "Why it does not sit with the CIO, the CTO or the programme director",
   "whyCio": "The CIO and the CTO own technology. Whether a decision taken years ago still serves the market the company is entering is an operating question. It is not theirs to answer and it never was.",
   "whyPd": "The programme director often can answer it. They are not allowed to. Nobody arbitrates what a programme is permitted to decide while being accountable for delivering it on a date. Ask a programme director to rule that a protected requirement has no evidence behind it, after the go-live date has been communicated. The date wins. Every time.",
   "whyPartner": "The implementation partner ends up holding decisions that were never theirs to make, and is then held responsible for them.",
   "whyOwner": "The decision belongs to the executive who ultimately owns the consequences.",
-
   "howHeading": "How it runs",
   "howIntro": "Two engagements.",
   "stage1Heading": "Stage 1. Transformation Integrity Diagnostic. 1 to 4 weeks.",
   "stage1Intro": "Four parts, in order. Each one only matters if the one above it holds.",
   "parts": [
-    {"name": "Destination.", "text": "What the company is becoming, and how far that has travelled. Interviews run on volunteers, every level, plus a required set: sponsor, steering members, process owners. Volunteers, because the people with something to say put their hand up. Interviews also include people who do not volunteer. A curated sample tells you what the organisation wants you to hear."},
-    {"name": "Culture.", "text": "Whether the organisation can reinvent itself, or only protect what it has. Same interviews. What is tested is where an idea goes when someone says a practice should stop existing, and what happened to the last person who tried."},
-    {"name": "Team.", "text": "Vetting against criteria, 1 to 3 people per business area, nominated by the client. Vetting tests whether they understand how the company runs today and can challenge its processes against what the company is becoming. A name that cannot do both does not go on the team. The sponsor can override that in writing, with the reason recorded. That record is itself governance."},
-    {"name": "MVG. Minimum Viable Governance.", "text": "One page. Decision rights, guardrails, escalation path, and the test every past decision has to pass: does this decision survive the future market."}
+    {
+      "name": "Destination.",
+      "text": "What the company is becoming, and how far that has travelled. Interviews run on volunteers, every level, plus a required set: sponsor, steering members, process owners. Volunteers, because the people with something to say put their hand up. Interviews also include people who do not volunteer. A curated sample tells you what the organisation wants you to hear."
+    },
+    {
+      "name": "Culture.",
+      "text": "Whether the organisation can reinvent itself, or only protect what it has. Same interviews. What is tested is where an idea goes when someone says a practice should stop existing, and what happened to the last person who tried."
+    },
+    {
+      "name": "Team.",
+      "text": "Vetting against criteria, 1 to 3 people per business area, nominated by the client. Vetting tests whether they understand how the company runs today and can challenge its processes against what the company is becoming. A name that cannot do both does not go on the team. The sponsor can override that in writing, with the reason recorded. That record is itself governance."
+    },
+    {
+      "name": "MVG. Minimum Viable Governance.",
+      "text": "One page. Decision rights, guardrails, escalation path, and the test every past decision has to pass: does this decision survive the future market."
+    }
   ],
   "testText": "That test takes protectionism out of the argument, because it challenges the history of the decision instead of the person defending it. It runs in both directions. It makes protecting a decision that no longer contributes to the company's future impossible. It also gives a genuinely industry-specific process, one that neither the software provider nor the ISV market covers, a place to survive on the record.",
   "lands": "What lands: the diagnosis, and the signed MVG page. That is the minimum, not the scope.",
   "moves": "What moves 1 week to 4: business areas, sites and languages in scope; whether the programme is already running and has a history to read; how deep the vetting goes.",
   "scope": "The scope is agreed before the work starts. Fixed fee for a defined window. The diagnostic ends within that window, including when the finding is that the organisation is not ready.",
-
   "stage2Heading": "Stage 2. Transformation Governance Retainer. Gatekeeping.",
   "stage2Intro": "Stage 1 sets the guardrails. Stage 2 holds them while the programme runs.",
   "stage2Forums": "Gatekeeping runs at the decision forums, steering and design authority. The workshops are covered by the stream leaders, who report against the guardrails into a standing session with the sponsor. A stream leader who has to report against a guardrail every week starts enforcing it before it reaches the forum.",
   "stage2Escalation": "A violated guardrail goes to the sponsor as a flag. An ignored flag goes to steering as a named decision with an owner and a date. An override records the evidence and the reason. Where guardrails are repeatedly ignored and the sponsor does not act, the retainer ends.",
-  "stage2Term": "Monthly, extended a month at a time.",
+  "stage2Term": "3 Month, extended for another month",
   "stage2Alone": "Stage 2 without Stage 1 is possible, after a short baseline that ends in a signed MVG page. Without that page there are no guardrails to hold, and gatekeeping is attendance.",
-
   "evidenceHeading": "Evidence",
   "evidenceContext": "Furniture manufacturing. Project-based order intake. The client cannot be named.",
   "evidenceClaim": "A 1:1 requirement structure across the full supply chain was classified as a must-have by the business team. The steering committee supported it. Two years of programme decisions rested on that classification.",
   "evidenceAnalysis": "After a failed go-live my analysis looked at the behaviour of the supply chain: demand cadence, self-absorption of demand variation, item concentration. 10 percent of manufactured items accounted for 80 percent of production volume. Measured.",
   "evidenceResult": "The requirement was invalidated. The model held strong evidence for moving from requirements management to exception management. Modelled: up to 90 percent fewer production orders, 4.5 FTE released, shorter lead times. Execution is running. The benefit is modelled, not banked.",
   "evidenceLesson": "Nobody tested the requirement. The user story became the requirement. The lack of guardrails permitted old decisions into the new technology.",
-
   "notHeading": "What this does not do",
   "notText": "No programme management. No change communications. No ERP configuration. No co-delivery with system integrators.",
-
   "partnersHeading": "For implementation partners",
   "partnersCost": "This can cost you change requests. Requirements without evidence are challenged before they become a build. A system change supported by the business evidence has a place to survive.",
   "partnersOwnership": "The sponsor owns the business decision. The implementation partner owns the work agreed for delivery. The advisory does not take over that work.",
   "partnersGain": "What this gives you is a record of the business decisions behind the build, who made them, and why.",
-
   "actHeading": "What to do with this",
   "actMoment": "If a client is approaching a transformation and the five questions have no clean answers, that is the moment. Before implementation begins is the cheapest version. Once a programme is running, the work also has to address the decisions already made.",
   "actIntro": "An introduction is enough. A 30-minute framing call settles whether the diagnostic is the right next move.",
   "actQuestionLabel": "The question to put in front of them:",
   "actQuestion": "Are you transforming the business, or paying to rebuild yesterday's business on newer technology?",
-
   "signature": "Joe Gramann. Founder, Southern Xross Designs. Independent executive advisor.",
   "contactName": "Joe Gramann",
   "email": "joe@southernxdesigns.com",
