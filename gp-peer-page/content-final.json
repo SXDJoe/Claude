@@ -51,7 +51,7 @@
     },
     {
       "name": "Team.",
-      "text": "Vetting against criteria, 1 to 3 people per business area, nominated by the client. Vetting tests whether they understand how the company runs today and can challenge its processes against what the company is becoming. A name that cannot do both does not go on the team. The sponsor can override that in writing, with the reason recorded. That record is itself governance."
+      "text": "Vetting against criteria, 1 to 3 people per business area, nominated by the client. Vetting names who can represent a business that does not exist yet, and who will defend the one that does. A name that cannot do the first does not go on the team. The sponsor can override that in writing, with the reason recorded. That record is itself governance."
     },
     {
       "name": "MVG. Minimum Viable Governance.",
@@ -65,7 +65,7 @@
   "stage2Heading": "Stage 2. Transformation Governance Gatekeeping.",
   "stage2Intro": "Stage 1 sets the guardrails. Stage 2 holds them while the programme runs.",
   "stage2Forums": "Gatekeeping runs at the decision forums, steering and design authority. The workshops are covered by the stream leaders, who report against the guardrails into a standing session with the sponsor. A stream leader who has to report against a guardrail every week starts enforcing it before it reaches the forum.",
-  "stage2Escalation": "A violated guardrail goes to the sponsor as a flag. An ignored flag goes to steering as a named decision with an owner and a date. An override records the evidence and the reason. Where guardrails are repeatedly ignored and the sponsor does not act, the retainer ends.",
+  "stage2Escalation": "A violated guardrail goes to the sponsor as a flag. An ignored flag goes to steering as a named decision with an owner and a date. Where governance decisions are overruled repeatedly, the retainer ends.",
   "stage2Term": "3 months, extended for another month",
   "stage2Alone": "Stage 2 without Stage 1 is possible, after a short baseline that ends in a signed MVG page. Without that page there are no guardrails to hold, and gatekeeping is attendance.",
   "evidenceHeading": "Evidence",
