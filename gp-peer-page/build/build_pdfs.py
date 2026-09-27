@@ -10,7 +10,7 @@ one frame per page:
 
 Python 3.8+ standard library only. Needs Chrome, Edge or Chromium installed.
 
-    python build_pdfs.py                     # writes the PDFs next to this kit's parent folder
+    python build_pdfs.py                     # writes the PDFs into the folder above this kit
     python build_pdfs.py --out "C:\\path\\to\\folder"
     python build_pdfs.py --chrome "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
 """
@@ -34,7 +34,6 @@ CHROME_CANDIDATES = [
     r"C:\Program Files\Microsoft\Edge\Application\msedge.exe",
     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
     "/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge",
-    "/opt/pw-browsers/chromium-1194/chrome-linux/chrome",
 ]
 CHROME_NAMES = ["chrome", "google-chrome", "chromium", "chromium-browser", "msedge"]
 
@@ -113,7 +112,7 @@ def build_html(page, content, light):
         if q not in body:
             sys.exit("Page layout changed: '" + q + "' not found. Update build_pdfs.py.")
         body = body.replace(q, q.replace("@media (", "@media screen and ("))
-    data =json.dumps(content, ensure_ascii=False).replace("</", "<\\/")
+    data = json.dumps(content, ensure_ascii=False).replace("</", "<\\/")
     feed = (
         "<script>(function(){var C=" + data + ";var f=window.fetch;"
         "window.fetch=function(u,o){return String(u).indexOf('content.json')>-1"
